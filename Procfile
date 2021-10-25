@@ -1,1 +1,1 @@
-web: gunicorn testetemplate.wsgi
+web: gunicorn likedin.wsgi --log-file -
