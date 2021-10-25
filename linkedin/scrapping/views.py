@@ -178,3 +178,7 @@ def diretor_empresas(request):
             if data['nome'] != None:
                 df = pd.DataFrame([data])
                 df.to_csv('dados_final.csv', mode='a', index=False)
+
+
+def teste(request):
+    return render(request, 'index.html')
